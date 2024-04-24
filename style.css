@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
 
 section {
@@ -56,10 +58,27 @@ h1 {
     font-size: 18px;
 }
 
+.contenta img {
+    padding: 64px;
+}
+
+.ca-meat {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    border: 0px;
+    border: 0px;align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 16px;
 }
 
 .contentb {
@@ -83,11 +102,15 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 } 
 
 .lorem {
     display: flex;
     margin-left: auto;
+    font-size: 25px;
 }
 
 .contentd {
@@ -97,26 +120,49 @@ button {
     padding-right: 100px;
     gap: 8px;
     align-items: center;
-    justify-content: stretch;
+    justify-content: center;
 
 }
 
 .signup {
     display: flex;
     background-color: #3882f6;
+    color: #f9faf8;
+    flex-basis: 640px;
+    min-width: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+
+cd-meat {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin: 0%;
+}
+
+.cd-text {
+    display: flex;
+}
+
+.button2 {
+    display: flex;
+    border: 2px;
+    border-color: #f9faf8;
+    border-style: solid;
+    margin-bottom: 16px;
 }
 
 footer {
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 6px 100px;
     align-items: center;
     justify-content: center;
 }
-
- /*make it shrink
- get rid of border
-  */
  
