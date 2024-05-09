@@ -17,13 +17,14 @@ header {
     display: flex;
     color: #f9faf8;
     background-color: #1f2937;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 8px;
+    padding: 8px 100px;
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
+    border-bottom: #141d29;
+    border-bottom-width: 2px;
 }
+/* style, give header a darker bottom border */
 
 .links {
     display: flex;
@@ -40,10 +41,10 @@ header {
 .contenta {
     display: flex;
     background-color: #1f2937;
-    color: #f9faf8;
     padding-left: 100px;
     padding-right: 100px;
     gap: 8px;
+    justify-content: space-evenly;
 }
 
 h1 {
@@ -51,44 +52,49 @@ h1 {
     margin-bottom: 8px;
     font-size: 48px;
     font-weight: bolder;
+    color: #f9faf8;
 }
 
 .text {
     color: #e5e7eb;
     font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
-.contenta img {
-    display: flex;
+.photoa {
     flex: 200px;
+    flex-grow: 0;
     margin-bottom: 16px;
+    margin-top: 16px;
+    min-width: 650px;
 }
 
 .contenta div {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-basis: 50%;
+    flex-basis: 100%;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .ca-meat {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
 }
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
     border: 0px;align-items: center;
-    padding-left: 16px;
-    padding-right: 16px;
     border-radius: 6px;
     text-transform: uppercase;
     padding: 10px 20px;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-align: center;
+    min-width: 100px;
+    max-height: 42px;
 }
 
 .contentb {
@@ -105,11 +111,22 @@ button {
 
 h2 {
     padding-top: 0;
+    font-size: 40px;
 }
 
 .cb-meat {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pg1, .pg2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .dog-text {
@@ -121,8 +138,8 @@ h2 {
 img {
     display: flex;
     margin-left: 16px;
-    margin-right: 16px;
-    border-radius: 16px;
+    margin-right: 24px;
+    border-radius: 24px;
 }
 
 .contentc {
@@ -133,6 +150,7 @@ img {
     padding-top: 50px;
     padding-bottom: 50px;
     gap: 8px;
+    justify-content: center;
 }
 
 .quote {
@@ -141,37 +159,37 @@ img {
     align-items: center;
     flex-wrap: wrap;
     font-size: 32px;
+    font-weight: 300;
     padding-top: 16px;
     padding-bottom: 16px;
+    max-width: 1024px;
 } 
 
 .lorem {
     display: flex;
     margin-left: auto;
+    margin-right: 16px;
     font-size: 25px;
+    font-weight: 700;
 }
 
 .contentd {
     display: flex;
     background-color: #f9faf8;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 100px;
     gap: 8px;
     align-items: center;
     justify-content: center;
-
 }
 
 .signup {
     display: flex;
+    flex-wrap: wrap;
     background-color: #3882f6;
     color: #f9faf8;
     flex-basis: 640px;
     min-width: 0px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 64px;
     justify-content: space-around;
     border-radius: 6px;
 }
@@ -183,6 +201,8 @@ cd-meat {
 
 h3 {
     margin: 0%;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .cd-text {
