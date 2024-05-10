@@ -6,31 +6,21 @@ body {
     padding: 0;
 }
 
-section {
-    flex-basis: 192px;
-    min-width: 0;
-    flex-shrink: 1;
-    flex-grow: 1;
-}
-
 header {
     display: flex;
+    flex-wrap: wrap;
     color: #f9faf8;
     background-color: #1f2937;
     padding: 8px 100px;
     align-items: center;
     justify-content: space-between;
-    flex-grow: 1;
-    border-bottom: #141d29;
-    border-bottom-width: 2px;
+    border-bottom: 2px groove #1d2734;
 }
-/* style, give header a darker bottom border */
 
 .links {
     display: flex;
     color: #e5e7eb;
     font-size: 18px;
-    flex-direction: row;
     gap: 8px;
 }
 
@@ -40,10 +30,9 @@ header {
 
 .contenta {
     display: flex;
+    flex-wrap: wrap;
     background-color: #1f2937;
-    padding-left: 100px;
-    padding-right: 100px;
-    gap: 8px;
+    padding: 64px 100px;
     justify-content: space-evenly;
 }
 
@@ -63,35 +52,23 @@ h1 {
 }
 
 .photoa {
-    flex: 200px;
-    flex-grow: 0;
     margin-bottom: 16px;
     margin-top: 16px;
-    min-width: 650px;
-}
-
-.contenta div {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    max-width: 600px;
-    max-height: 400px;
 }
 
 .ca-meat {
     width: 100%;
+    max-width: 600px;
 }
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    border: 0px;align-items: center;
+    border: 1px groove #f9faf8;
     border-radius: 6px;
     text-transform: uppercase;
     padding: 10px 20px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 8px 16px;
     text-align: center;
     min-width: 100px;
     max-height: 42px;
@@ -101,24 +78,18 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 64px 0px;
     gap: 8px;
     align-items: center;
 }
 
 h2 {
-    padding-top: 0;
     font-size: 40px;
 }
 
 .cb-meat {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     gap: 8px;
 }
@@ -126,7 +97,8 @@ h2 {
 .pg1, .pg2 {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .dog-text {
@@ -136,37 +108,28 @@ h2 {
 }
 
 img {
-    display: flex;
-    margin-left: 16px;
+    margin-left: 24px;
     margin-right: 24px;
-    border-radius: 24px;
+    border-radius: 16px;
 }
 
 .contentc {
     display: flex;
     background-color: #e5e7eb;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    gap: 8px;
+    padding: 50px 100px;
     justify-content: center;
 }
 
 .quote {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     font-size: 32px;
     font-weight: 300;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px 0px;
     max-width: 1024px;
 } 
 
 .lorem {
-    display: flex;
     margin-left: auto;
     margin-right: 16px;
     font-size: 25px;
@@ -177,8 +140,6 @@ img {
     display: flex;
     background-color: #f9faf8;
     padding: 50px 100px;
-    gap: 8px;
-    align-items: center;
     justify-content: center;
 }
 
@@ -188,15 +149,9 @@ img {
     background-color: #3882f6;
     color: #f9faf8;
     flex-basis: 640px;
-    min-width: 0px;
     padding: 32px 64px;
     justify-content: space-around;
     border-radius: 6px;
-}
-
-cd-meat {
-    display: flex;
-    flex-direction: column;
 }
 
 h3 {
@@ -209,20 +164,11 @@ h3 {
     display: flex;
 }
 
-.button2 {
-    display: flex;
-    border: 2px;
-    border-color: #f9faf8;
-    border-style: solid;
-    margin-bottom: 16px;
-}
-
 footer {
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 6px 100px;
-    align-items: center;
+    padding: 6px 0px;
     justify-content: center;
 }
  
